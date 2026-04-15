@@ -1,0 +1,38 @@
+{
+  "_asset_layer": "base",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChunkExtraction",
+  "type": "object",
+  "required": ["chunk_id", "summary", "characters", "events", "locations", "time_markers"],
+  "properties": {
+    "chunk_id": {
+      "type": "string",
+      "description": "唯一标识符，与chunk文件名对应"
+    },
+    "summary": {
+      "type": "string",
+      "description": "该文本片段的简短摘要（50-150字）"
+    },
+    "characters": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "出现的人物名称列表"
+    },
+    "events": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "发生的主要事件列表"
+    },
+    "locations": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "出现的地点、场所列表"
+    },
+    "time_markers": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "时间标记，如朝代、年号、季节、时辰等"
+    }
+  },
+  "additionalProperties": false
+}

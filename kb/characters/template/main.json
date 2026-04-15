@@ -1,0 +1,36 @@
+{
+  "_asset_layer": "instantiation_mold",
+  "schema_version": "1.0",
+  "character": "NULL",
+  "scope_anchor": {
+    "policy": "latest_stable_state",
+    "validated_through": null,
+    "note": "TODO"
+  },
+  "generation_data": {
+    "identity_core": {
+      "summary": "TODO",
+      "hard_facts": [],
+      "family_structure": "TODO"
+    },
+    "capability_profile": {
+      "known_competence": [],
+      "operational_constraints": [],
+      "avoid_overclaim": []
+    },
+    "voice_profile": {
+      "external_expression": "TODO",
+      "inner_monologue": "TODO",
+      "register_preferences": [],
+      "register_avoidances": []
+    },
+    "relationship_stance": [],
+    "hard_boundaries": [],
+    "focus_notes": []
+  },
+  "maintenance_data": {
+    "evidence_pack": [],
+    "source_artifacts": [],
+    "migration_note": "TODO"
+  }
+}

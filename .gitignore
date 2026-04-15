@@ -1,0 +1,33 @@
+.aider*
+
+# Local collaboration / tool state
+.claude/
+__pycache__/
+*.pyc
+
+# Local logs
+*.log
+logs/
+
+# Runtime status files are not part of the first skeleton commit
+STATE.json
+CURRENT_STATE.md
+NEXT_ACTION.md
+config.json
+
+# Novel-specific raw and processed working data
+raw/
+chunks/
+state/processed_canon.jsonl
+state/processed_style.jsonl
+state/progress.json
+state/backups/
+
+# Experimental outputs stay local for the first Git skeleton push
+outputs/*
+!outputs/README.md
+
+# Pending-delete isolation zone stays local
+review/_pending_delete/
+alpha_test_stage/
+# NOTE: prompts/ is intentionally NOT excluded — it is allowed in the first Git skeleton commit

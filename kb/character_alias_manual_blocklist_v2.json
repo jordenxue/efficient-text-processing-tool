@@ -1,0 +1,10 @@
+{
+  "_asset_layer": "novel_instance",
+  "pairs": [
+    {
+      "a": "李莉",
+      "b": "李莉丝",
+      "reason": "不同人物，名字相似但不应归一"
+    }
+  ]
+}

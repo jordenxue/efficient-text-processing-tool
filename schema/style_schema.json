@@ -1,0 +1,50 @@
+{
+  "_asset_layer": "base",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StyleExtraction",
+  "type": "object",
+  "required": ["chunk_id", "narration_tone", "dialogue_density", "prose_features", "key_dialogues", "style_tags"],
+  "additionalProperties": false,
+  "properties": {
+    "chunk_id": {
+      "type": "string"
+    },
+    "narration_tone": {
+      "type": "string"
+    },
+    "dialogue_density": {
+      "type": "string",
+      "enum": ["高", "中", "低"]
+    },
+    "prose_features": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "key_dialogues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["speaker", "line", "chunk_id"],
+        "additionalProperties": false,
+        "properties": {
+          "speaker":  {"type": "string"},
+          "line":     {"type": "string"},
+          "chunk_id": {"type": "string"}
+        }
+      }
+    },
+    "style_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "吐槽风", "温情", "冷幽默", "热血", "日常感",
+          "诗意", "口语化", "书面化", "意识流", "快节奏",
+          "慢节奏", "对话驱动", "描写驱动", "心理描写多",
+          "动作描写多", "第一人称", "第三人称", "轻小说风",
+          "严肃文学风", "网文风"
+        ]
+      }
+    }
+  }
+}

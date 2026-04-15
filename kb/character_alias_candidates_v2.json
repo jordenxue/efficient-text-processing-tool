@@ -1,0 +1,5235 @@
+{
+  "_asset_layer": "novel_instance",
+  "entries": [
+  {
+    "alias": "灵璇",
+    "canonical_candidate": "杜灵璇",
+    "alias_count": 1,
+    "canonical_count": 239,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.00)，canonical出现239次"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁莉特",
+    "alias_count": 39,
+    "canonical_count": 207,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.19)，canonical出现207次"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚",
+    "alias_count": 34,
+    "canonical_count": 138,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.25)，canonical出现138次"
+  },
+  {
+    "alias": "贞铃",
+    "canonical_candidate": "江贞铃",
+    "alias_count": 9,
+    "canonical_count": 43,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.21)，canonical出现43次"
+  },
+  {
+    "alias": "杜拉",
+    "canonical_candidate": "猫杜拉",
+    "alias_count": 1,
+    "canonical_count": 26,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.04)，canonical出现26次"
+  },
+  {
+    "alias": "伊芙",
+    "canonical_candidate": "伊芙·哈金斯",
+    "alias_count": 1,
+    "canonical_count": 24,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.04)，canonical出现24次"
+  },
+  {
+    "alias": "伊芙",
+    "canonical_candidate": "伊芙哈金斯",
+    "alias_count": 1,
+    "canonical_count": 18,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.06)，canonical出现18次"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "猫菲莉亚",
+    "alias_count": 5,
+    "canonical_count": 15,
+    "rule": "substring_auto",
+    "confidence": "high",
+    "auto_accept": true,
+    "reason": "子串简称，频率差显著(ratio=0.33)，canonical出现15次"
+  },
+  {
+    "alias": "瑞秋",
+    "canonical_candidate": "林瑞秋",
+    "alias_count": 1,
+    "canonical_count": 9,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(9次)"
+  },
+  {
+    "alias": "伊芙琳",
+    "canonical_candidate": "伊芙琳·莫顿",
+    "alias_count": 2,
+    "canonical_count": 7,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(7次)"
+  },
+  {
+    "alias": "伊芙",
+    "canonical_candidate": "伊芙琳·莫顿",
+    "alias_count": 1,
+    "canonical_count": 7,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(7次)"
+  },
+  {
+    "alias": "娜塔莉",
+    "canonical_candidate": "娜塔莉亚",
+    "alias_count": 2,
+    "canonical_count": 6,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(6次)"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "邪能巨猫",
+    "alias_count": 2,
+    "canonical_count": 6,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(6次)"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 6,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(6次)"
+  },
+  {
+    "alias": "猫尔",
+    "canonical_candidate": "猫尔利特",
+    "alias_count": 1,
+    "canonical_count": 5,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(5次)"
+  },
+  {
+    "alias": "猫维",
+    "canonical_candidate": "猫维尔",
+    "alias_count": 1,
+    "canonical_count": 5,
+    "rule": "substring_review",
+    "confidence": "medium",
+    "auto_accept": false,
+    "reason": "需人工确认：canonical低频(5次)"
+  },
+  {
+    "alias": "李莉",
+    "canonical_candidate": "李莉丝",
+    "alias_count": 84,
+    "canonical_count": 66,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.27），可能是独立角色"
+  },
+  {
+    "alias": "李莉",
+    "canonical_candidate": "李莉安",
+    "alias_count": 84,
+    "canonical_count": 26,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.23），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "灰雾猫灯",
+    "alias_count": 12,
+    "canonical_count": 13,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.92），可能是独立角色"
+  },
+  {
+    "alias": "维拉",
+    "canonical_candidate": "维拉灯",
+    "alias_count": 34,
+    "canonical_count": 12,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.83），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "大艾琳",
+    "alias_count": 153,
+    "canonical_count": 11,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=13.91），可能是独立角色"
+  },
+  {
+    "alias": "希斯特利亚",
+    "canonical_candidate": "希雅（希斯特利亚）",
+    "alias_count": 97,
+    "canonical_count": 8,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.12），可能是独立角色"
+  },
+  {
+    "alias": "希雅",
+    "canonical_candidate": "希雅（希斯特利亚）",
+    "alias_count": 128,
+    "canonical_count": 8,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=16.00），可能是独立角色"
+  },
+  {
+    "alias": "艾蕾莎",
+    "canonical_candidate": "艾蕾莎·威灵顿",
+    "alias_count": 54,
+    "canonical_count": 8,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.75），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚灯",
+    "alias_count": 138,
+    "canonical_count": 8,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=17.25），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚灯",
+    "alias_count": 34,
+    "canonical_count": 8,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.25），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "波斯猫灯",
+    "alias_count": 12,
+    "canonical_count": 7,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.71），可能是独立角色"
+  },
+  {
+    "alias": "维拉",
+    "canonical_candidate": "圣女维拉",
+    "alias_count": 34,
+    "canonical_count": 6,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.67），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "娜塔莉亚",
+    "alias_count": 5,
+    "canonical_count": 6,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.83），可能是独立角色"
+  },
+  {
+    "alias": "末娜",
+    "canonical_candidate": "宫本末娜",
+    "alias_count": 3,
+    "canonical_count": 6,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.50），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "噩梦猫灯",
+    "alias_count": 12,
+    "canonical_count": 6,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 6,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁莉特",
+    "canonical_candidate": "安洁莉特·冯·路德维希",
+    "alias_count": 207,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=41.40），可能是独立角色"
+  },
+  {
+    "alias": "路德维希",
+    "canonical_candidate": "安洁莉特·冯·路德维希",
+    "alias_count": 3,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.60），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁莉特·冯·路德维希",
+    "alias_count": 39,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=7.80），可能是独立角色"
+  },
+  {
+    "alias": "多萝西",
+    "canonical_candidate": "多萝西·乔丹",
+    "alias_count": 12,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.40），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "长眠猫灯",
+    "alias_count": 12,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.40），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "大橘猫灯",
+    "alias_count": 12,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.40），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维灯",
+    "alias_count": 34,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.80），可能是独立角色"
+  },
+  {
+    "alias": "莎尔",
+    "canonical_candidate": "莎尔灯",
+    "alias_count": 13,
+    "canonical_count": 5,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.60），可能是独立角色"
+  },
+  {
+    "alias": "杜灵璇",
+    "canonical_candidate": "杜灵璇（璇宝）",
+    "alias_count": 239,
+    "canonical_count": 4,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=59.75），可能是独立角色"
+  },
+  {
+    "alias": "璇宝",
+    "canonical_candidate": "杜灵璇（璇宝）",
+    "alias_count": 7,
+    "canonical_count": 4,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.75），可能是独立角色"
+  },
+  {
+    "alias": "灵璇",
+    "canonical_candidate": "杜灵璇（璇宝）",
+    "alias_count": 1,
+    "canonical_count": 4,
+    "rule": "substring_weak",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "弱候选，不建议合并：canonical低频(4次)"
+  },
+  {
+    "alias": "阿加莎",
+    "canonical_candidate": "阿加莎·兰登",
+    "alias_count": 13,
+    "canonical_count": 4,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.25），可能是独立角色"
+  },
+  {
+    "alias": "多萝西",
+    "canonical_candidate": "多萝西乔丹",
+    "alias_count": 12,
+    "canonical_count": 4,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "末娜",
+    "canonical_candidate": "宫野末娜",
+    "alias_count": 3,
+    "canonical_count": 4,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.75），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁丽雅",
+    "alias_count": 39,
+    "canonical_count": 4,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.75），可能是独立角色"
+  },
+  {
+    "alias": "丽莎",
+    "canonical_candidate": "梅丽莎",
+    "alias_count": 1,
+    "canonical_count": 4,
+    "rule": "substring_weak",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "弱候选，不建议合并：canonical低频(4次)"
+  },
+  {
+    "alias": "希斯特利亚",
+    "canonical_candidate": "希斯特利亚（希雅）",
+    "alias_count": 97,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=32.33），可能是独立角色"
+  },
+  {
+    "alias": "希雅",
+    "canonical_candidate": "希斯特利亚（希雅）",
+    "alias_count": 128,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=42.67），可能是独立角色"
+  },
+  {
+    "alias": "艾尔莎",
+    "canonical_candidate": "艾尔莎·斯特恩",
+    "alias_count": 1,
+    "canonical_count": 3,
+    "rule": "substring_weak",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "弱候选，不建议合并：canonical低频(3次)"
+  },
+  {
+    "alias": "米雪",
+    "canonical_candidate": "米雪·德里亚",
+    "alias_count": 4,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.33），可能是独立角色"
+  },
+  {
+    "alias": "叶可淑",
+    "canonical_candidate": "叶可淑女士",
+    "alias_count": 20,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.67），可能是独立角色"
+  },
+  {
+    "alias": "希尔德",
+    "canonical_candidate": "希尔德内特",
+    "alias_count": 2,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.67），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "风暴巨猫",
+    "alias_count": 2,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.67），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "矮人魔女",
+    "alias_count": 3,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "黄金猫灯",
+    "alias_count": 12,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "尤克莉亚",
+    "alias_count": 5,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.67），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "小艾琳",
+    "alias_count": 153,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=51.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "玛莉亚",
+    "alias_count": 5,
+    "canonical_count": 3,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.67），可能是独立角色"
+  },
+  {
+    "alias": "黛弗琳",
+    "canonical_candidate": "黛弗琳·霍尔哈克·辛德拉",
+    "alias_count": 11,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.50），可能是独立角色"
+  },
+  {
+    "alias": "张鹿洱",
+    "canonical_candidate": "张鹿洱（象拔涵）",
+    "alias_count": 8,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "象拔涵",
+    "canonical_candidate": "张鹿洱（象拔涵）",
+    "alias_count": 6,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "汎德尔克",
+    "canonical_candidate": "爱丽丝·汎德尔克",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "爱丽丝",
+    "canonical_candidate": "爱丽丝·汎德尔克",
+    "alias_count": 1,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.50），可能是独立角色"
+  },
+  {
+    "alias": "约瑟芬",
+    "canonical_candidate": "约瑟芬·杜兰特",
+    "alias_count": 9,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.50），可能是独立角色"
+  },
+  {
+    "alias": "莉莉娅",
+    "canonical_candidate": "莉莉娅·朵切曼",
+    "alias_count": 23,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=11.50），可能是独立角色"
+  },
+  {
+    "alias": "安妮",
+    "canonical_candidate": "安妮·考德威尔",
+    "alias_count": 5,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.50），可能是独立角色"
+  },
+  {
+    "alias": "维拉",
+    "canonical_candidate": "维拉（圣女）",
+    "alias_count": 34,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=17.00），可能是独立角色"
+  },
+  {
+    "alias": "矮人魔女",
+    "canonical_candidate": "矮人魔女店长",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "矮人魔女店长",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "矮人魔女店长",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "唐娜",
+    "canonical_candidate": "唐娜·迈耶尔",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "洛伊思",
+    "canonical_candidate": "洛伊思·喀山",
+    "alias_count": 1,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.50），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "树果巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "树果巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "树果巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁卡维拉",
+    "alias_count": 39,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=19.50），可能是独立角色"
+  },
+  {
+    "alias": "维拉",
+    "canonical_candidate": "安洁卡维拉",
+    "alias_count": 34,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=17.00），可能是独立角色"
+  },
+  {
+    "alias": "萨曼莎",
+    "canonical_candidate": "萨曼莎女士",
+    "alias_count": 1,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.50），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "米诺陶莉亚",
+    "alias_count": 5,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.50），可能是独立角色"
+  },
+  {
+    "alias": "奥塞斯",
+    "canonical_candidate": "奥塞斯姐妹",
+    "alias_count": 7,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.50），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "化猫巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "化猫巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "化猫巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维喵嗷",
+    "alias_count": 34,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=17.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "幽灵魔女",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "月泉巨猫",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫魔女",
+    "canonical_candidate": "熊猫魔女",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "熊猫魔女",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "猫西莉亚",
+    "alias_count": 5,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.50），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "噩梦安洁",
+    "alias_count": 39,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=19.50），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "雾仙猫灯",
+    "alias_count": 12,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维猫猫",
+    "alias_count": 34,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=17.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "长眠魔女",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "宋莹",
+    "canonical_candidate": "宋莹小姐",
+    "alias_count": 4,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "狐狸魔女",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "看守魔女",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "丽莎",
+    "canonical_candidate": "猫丽莎白",
+    "alias_count": 1,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.50），可能是独立角色"
+  },
+  {
+    "alias": "玛丽",
+    "canonical_candidate": "玛丽苏",
+    "alias_count": 1,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.50），可能是独立角色"
+  },
+  {
+    "alias": "伊芙",
+    "canonical_candidate": "伊芙琳",
+    "alias_count": 1,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=0.50），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "猫魔女",
+    "alias_count": 3,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.50），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫灯们",
+    "alias_count": 12,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "巨猫们",
+    "alias_count": 2,
+    "canonical_count": 2,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "娜塔莉亚",
+    "canonical_candidate": "娜塔莉亚·谢尔盖芭勒夫·乌尔杨基尼奇",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "娜塔莉",
+    "canonical_candidate": "娜塔莉亚·谢尔盖芭勒夫·乌尔杨基尼奇",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "娜塔莉亚·谢尔盖芭勒夫·乌尔杨基尼奇",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "艾琳/艾莲·维多利亚·哈布斯堡",
+    "alias_count": 153,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=153.00），可能是独立角色"
+  },
+  {
+    "alias": "艾莲",
+    "canonical_candidate": "艾琳/艾莲·维多利亚·哈布斯堡",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "邪能巨猫灯",
+    "canonical_candidate": "邪能巨猫灯（猫卡罗尔洛斯特）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "邪能巨猫",
+    "canonical_candidate": "邪能巨猫灯（猫卡罗尔洛斯特）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫卡罗",
+    "canonical_candidate": "邪能巨猫灯（猫卡罗尔洛斯特）",
+    "alias_count": 26,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=26.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "邪能巨猫灯（猫卡罗尔洛斯特）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "邪能巨猫灯（猫卡罗尔洛斯特）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "邪能巨猫灯（猫卡罗尔洛斯特）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "历战风暴巨猫",
+    "canonical_candidate": "历战风暴巨猫灯（猫多娅斯汀）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫多娅斯汀",
+    "canonical_candidate": "历战风暴巨猫灯（猫多娅斯汀）",
+    "alias_count": 27,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=27.00），可能是独立角色"
+  },
+  {
+    "alias": "风暴巨猫",
+    "canonical_candidate": "历战风暴巨猫灯（猫多娅斯汀）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "历战风暴巨猫灯（猫多娅斯汀）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "历战风暴巨猫灯（猫多娅斯汀）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "历战风暴巨猫灯（猫多娅斯汀）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "阿库卡塔娅",
+    "canonical_candidate": "阿库卡塔娅·卡图·玛丽琼斯特",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "玛丽",
+    "canonical_candidate": "阿库卡塔娅·卡图·玛丽琼斯特",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "莱斯特·哈金斯",
+    "canonical_candidate": "幽灵魔女（莱斯特·哈金斯）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "幽灵魔女",
+    "canonical_candidate": "幽灵魔女（莱斯特·哈金斯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "莱斯特",
+    "canonical_candidate": "幽灵魔女（莱斯特·哈金斯）",
+    "alias_count": 24,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=24.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "幽灵魔女（莱斯特·哈金斯）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "马艾·妮可·莫斯沃罗",
+    "canonical_candidate": "主裁判马艾·妮可·莫斯沃罗",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "主裁判",
+    "canonical_candidate": "主裁判马艾·妮可·莫斯沃罗",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "阿尔洛夫斯",
+    "canonical_candidate": "安洁莉特·冯·阿尔洛夫斯",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁莉特",
+    "canonical_candidate": "安洁莉特·冯·阿尔洛夫斯",
+    "alias_count": 207,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=207.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁莉特·冯·阿尔洛夫斯",
+    "alias_count": 39,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=39.00），可能是独立角色"
+  },
+  {
+    "alias": "风暴巨猫",
+    "canonical_candidate": "风暴巨喵嗷（风暴巨猫灯）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "风暴巨喵嗷（风暴巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "风暴巨喵嗷（风暴巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "风暴巨喵嗷（风暴巨猫灯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "简韵菡（凤凰魔女店主）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫维尔",
+    "canonical_candidate": "猫维尔（千识万知之猫）",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "猫维",
+    "canonical_candidate": "猫维尔（千识万知之猫）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫内斯汀",
+    "canonical_candidate": "猫内斯汀（时间巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "猫内斯汀（时间巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫内斯汀（时间巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "猫内斯汀（时间巨猫灯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "淘金巨猫灯（猫法思特）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "淘金巨猫灯（猫法思特）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "淘金巨猫灯（猫法思特）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "巨猫厨师（传说巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "巨猫厨师（传说巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "巨猫厨师（传说巨猫灯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "法雅雅",
+    "canonical_candidate": "猫偶族小姑娘（法雅雅）",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "鬼龙巨猫灯",
+    "canonical_candidate": "猫伊妮丝（鬼龙巨猫灯）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫伊妮丝",
+    "canonical_candidate": "猫伊妮丝（鬼龙巨猫灯）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "猫伊妮丝（鬼龙巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫伊妮丝（鬼龙巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "猫伊妮丝（鬼龙巨猫灯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "米莎·穆里尼奥",
+    "canonical_candidate": "教练（米莎·穆里尼奥）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "猫崔西亚（龙堡巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫崔西亚（龙堡巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "猫崔西亚（龙堡巨猫灯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "长眠猫灯（奥维利亚）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "长眠猫灯",
+    "canonical_candidate": "长眠猫灯（奥维利亚）",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "长眠猫灯（奥维利亚）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "长眠猫灯（奥维利亚）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚（长眠喵嗷）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚（长眠喵嗷）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "邪能巨猫灯",
+    "canonical_candidate": "猫卡罗（邪能巨猫灯）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "邪能巨猫",
+    "canonical_candidate": "猫卡罗（邪能巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫卡罗",
+    "canonical_candidate": "猫卡罗（邪能巨猫灯）",
+    "alias_count": 26,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=26.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "猫卡罗（邪能巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫卡罗（邪能巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "猫卡罗（邪能巨猫灯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫卡罗",
+    "canonical_candidate": "邪能坏巨猫（猫卡罗）",
+    "alias_count": 26,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=26.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "邪能坏巨猫（猫卡罗）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚（长眠猫灯）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "长眠猫灯",
+    "canonical_candidate": "奥维利亚（长眠猫灯）",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚（长眠猫灯）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "奥维利亚（长眠猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫德海拉",
+    "canonical_candidate": "猫德海拉（群星猫灯）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫德海拉（群星猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "德莉亚斯（炎龙巨猫）",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "德莉亚斯（炎龙巨猫）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "巨猫（猫米菈、猫咔）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫米",
+    "canonical_candidate": "巨猫（猫米菈、猫咔）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "爱丽丝",
+    "canonical_candidate": "唐·爱丽丝·安德烈亚",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫菲莉亚",
+    "canonical_candidate": "灰雾巨猫（猫菲莉亚）",
+    "alias_count": 15,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=15.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "灰雾巨猫（猫菲莉亚）",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "灰雾巨猫（猫菲莉亚）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "三只龙堡猫灯（小猫）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "克图斯",
+    "canonical_candidate": "克苏呼图丝/克图斯",
+    "alias_count": 9,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.00），可能是独立角色"
+  },
+  {
+    "alias": "普莉西亚",
+    "canonical_candidate": "普莉西亚·哈弗洛克",
+    "alias_count": 48,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=48.00），可能是独立角色"
+  },
+  {
+    "alias": "埃莉诺",
+    "canonical_candidate": "埃莉诺·霍尔斯特德",
+    "alias_count": 14,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=14.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁莉特",
+    "canonical_candidate": "安洁莉特·路德维希",
+    "alias_count": 207,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=207.00），可能是独立角色"
+  },
+  {
+    "alias": "路德维希",
+    "canonical_candidate": "安洁莉特·路德维希",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁莉特·路德维希",
+    "alias_count": 39,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=39.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "蓝衣统合的魔女卫兵",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚（奥维灯）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维灯",
+    "canonical_candidate": "奥维利亚（奥维灯）",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚（奥维灯）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁莉特",
+    "canonical_candidate": "咒诅者（安洁莉特）",
+    "alias_count": 207,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=207.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "咒诅者（安洁莉特）",
+    "alias_count": 39,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=39.00），可能是独立角色"
+  },
+  {
+    "alias": "邪能巨猫",
+    "canonical_candidate": "邪能巨猫（猫卡罗）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫卡罗",
+    "canonical_candidate": "邪能巨猫（猫卡罗）",
+    "alias_count": 26,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=26.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "邪能巨猫（猫卡罗）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁莉特",
+    "canonical_candidate": "安洁莉特（安孝女）",
+    "alias_count": 207,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=207.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁莉特（安孝女）",
+    "alias_count": 39,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=39.00），可能是独立角色"
+  },
+  {
+    "alias": "希尔德内特",
+    "canonical_candidate": "希尔德内特（希尔）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "希尔德",
+    "canonical_candidate": "希尔德内特（希尔）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "猫勃（噩梦巨猫灯）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫勃",
+    "canonical_candidate": "猫勃（噩梦巨猫灯）",
+    "alias_count": 15,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=15.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫勃（噩梦巨猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "猫勃（噩梦巨猫灯）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫卡塔莉雅",
+    "canonical_candidate": "回音巨猫猫卡塔莉雅",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "回音巨猫猫卡塔莉雅",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "罗刹魔女3602",
+    "canonical_candidate": "罗刹魔女3602号",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "罗刹魔女3602号",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚（老大猫）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "老大猫",
+    "canonical_candidate": "奥维利亚（老大猫）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚（老大猫）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "老大猫（奥维利亚）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "老大猫",
+    "canonical_candidate": "老大猫（奥维利亚）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "老大猫（奥维利亚）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "泰莉莎",
+    "canonical_candidate": "泰莉莎·安托瓦妮可",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "阿契娜（纯金魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "卡莎",
+    "canonical_candidate": "卡莎·菲尔德李斯特",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "乔柔",
+    "canonical_candidate": "乔柔（艾米莉乔）",
+    "alias_count": 29,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=29.00），可能是独立角色"
+  },
+  {
+    "alias": "李莉",
+    "canonical_candidate": "李莉（狐狸小姐）",
+    "alias_count": 84,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=84.00），可能是独立角色"
+  },
+  {
+    "alias": "玛丽·加兰",
+    "canonical_candidate": "忠义伯玛丽·加兰",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "玛丽",
+    "canonical_candidate": "忠义伯玛丽·加兰",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "狐狸魔女",
+    "canonical_candidate": "狐狸魔女（李莉）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "李莉",
+    "canonical_candidate": "狐狸魔女（李莉）",
+    "alias_count": 84,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=84.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "狐狸魔女（李莉）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "罗莎罗莎",
+    "canonical_candidate": "罗莎罗莎（辛兰）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "艾莉森",
+    "canonical_candidate": "艾莉森·艾德六世",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "长眠猫灯奥维利亚",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "长眠猫灯",
+    "canonical_candidate": "长眠猫灯奥维利亚",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "长眠猫灯奥维利亚",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "长眠猫灯奥维利亚",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "梅丽莎",
+    "canonical_candidate": "守夜者（梅丽莎）",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "守夜者",
+    "canonical_candidate": "守夜者（梅丽莎）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "丽莎",
+    "canonical_candidate": "守夜者（梅丽莎）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "猫耳魔女（店长）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "猫耳魔女（店长）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "店长（虫族魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "店长（虫族魔女）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "幽灵魔女",
+    "canonical_candidate": "丽莎（幽灵魔女）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "丽莎（幽灵魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "丽莎",
+    "canonical_candidate": "丽莎（幽灵魔女）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "丽莎",
+    "canonical_candidate": "伊丽莎白·奥斯汀",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚（猫灯）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚（猫灯）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "奥维利亚（猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "安妮",
+    "canonical_candidate": "安妮·冯·梅纽因",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁莉特",
+    "canonical_candidate": "安洁莉特（安洁）",
+    "alias_count": 207,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=207.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "安洁莉特（安洁）",
+    "alias_count": 39,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=39.00），可能是独立角色"
+  },
+  {
+    "alias": "唐娜·迈耶尔",
+    "canonical_candidate": "唐娜·迈耶尔小姐",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "唐娜",
+    "canonical_candidate": "唐娜·迈耶尔小姐",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "月泉巨猫",
+    "canonical_candidate": "月泉巨猫猫娜贝拉",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "月泉巨猫猫娜贝拉",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "猫法莉亚（小猫）",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "猫卡尔",
+    "canonical_candidate": "卡拉灯（猫卡尔）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "卡拉灯",
+    "canonical_candidate": "卡拉灯（猫卡尔）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "卡拉",
+    "canonical_candidate": "卡拉灯（猫卡尔）",
+    "alias_count": 9,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.00），可能是独立角色"
+  },
+  {
+    "alias": "龙魔女",
+    "canonical_candidate": "符琪（山龙魔女）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "符琪（山龙魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "符琪",
+    "canonical_candidate": "符琪（山龙魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "龙魔女",
+    "canonical_candidate": "李艾（真龙魔女）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "李艾",
+    "canonical_candidate": "李艾（真龙魔女）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "李艾（真龙魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "龙魔女",
+    "canonical_candidate": "真龙魔女（李艾）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "李艾",
+    "canonical_candidate": "真龙魔女（李艾）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "真龙魔女（李艾）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "龙魔女",
+    "canonical_candidate": "龙魔女（李维雅）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "李维雅",
+    "canonical_candidate": "龙魔女（李维雅）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "龙魔女（李维雅）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "洛娃",
+    "canonical_candidate": "洛娃（牛头魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "洛娃（牛头魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "李心尘",
+    "canonical_candidate": "白真人（李心尘）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "罗刹魔女3602",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "张鹿洱",
+    "canonical_candidate": "象拔涵（张鹿洱）",
+    "alias_count": 8,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=8.00），可能是独立角色"
+  },
+  {
+    "alias": "象拔涵",
+    "canonical_candidate": "象拔涵（张鹿洱）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "徐方瀛",
+    "canonical_candidate": "徐方瀛（鼠鼠涵）",
+    "alias_count": 17,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=17.00），可能是独立角色"
+  },
+  {
+    "alias": "鼠鼠涵",
+    "canonical_candidate": "徐方瀛（鼠鼠涵）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "魔女（仙气少女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚（奥维）",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚（奥维）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "猫尔利特",
+    "canonical_candidate": "大橘巨猫猫尔利特",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "大橘巨猫",
+    "canonical_candidate": "大橘巨猫猫尔利特",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "大橘巨猫猫尔利特",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫尔",
+    "canonical_candidate": "大橘巨猫猫尔利特",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫菲莉亚",
+    "canonical_candidate": "猫菲莉亚、猫杜拉",
+    "alias_count": 15,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=15.00），可能是独立角色"
+  },
+  {
+    "alias": "猫杜拉",
+    "canonical_candidate": "猫菲莉亚、猫杜拉",
+    "alias_count": 26,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=26.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "猫菲莉亚、猫杜拉",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "杜拉",
+    "canonical_candidate": "猫菲莉亚、猫杜拉",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "艾丝忒",
+    "canonical_candidate": "艾丝忒·鲁道夫",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "杜凝妆",
+    "canonical_candidate": "阿杜（杜凝妆）",
+    "alias_count": 43,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=43.00），可能是独立角色"
+  },
+  {
+    "alias": "海瑟",
+    "canonical_candidate": "海瑟·格拉摩根",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "单边镜片的魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "梅拉",
+    "canonical_candidate": "梅拉（蜘蛛娘）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "鱼人布偶服魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫魔女",
+    "canonical_candidate": "赵瑛（猫魔女）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "赵瑛（猫魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维（猫头子）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "狐魔女（妖狐）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "莱斯特",
+    "canonical_candidate": "莱斯特·哈金斯",
+    "alias_count": 24,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=24.00），可能是独立角色"
+  },
+  {
+    "alias": "维拉",
+    "canonical_candidate": "奥莉薇（维拉）",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "蔺昭君",
+    "canonical_candidate": "蔺昭君（阿蔺）",
+    "alias_count": 108,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=108.00），可能是独立角色"
+  },
+  {
+    "alias": "阿蔺",
+    "canonical_candidate": "蔺昭君（阿蔺）",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "风暴巨猫",
+    "canonical_candidate": "风暴巨猫猫卡尔",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫卡尔",
+    "canonical_candidate": "风暴巨猫猫卡尔",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "风暴巨猫猫卡尔",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "树果巨猫猫尔忒",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫尔",
+    "canonical_candidate": "树果巨猫猫尔忒",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "希斯特利亚",
+    "canonical_candidate": "希傅希斯特利亚",
+    "alias_count": 97,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=97.00），可能是独立角色"
+  },
+  {
+    "alias": "希傅",
+    "canonical_candidate": "希傅希斯特利亚",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "李槐",
+    "canonical_candidate": "李槐（黑真人）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫杰琳",
+    "canonical_candidate": "猫杰琳（巨猫）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "猫杰琳（巨猫）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "黛弗琳",
+    "canonical_candidate": "小黛（黛弗琳）",
+    "alias_count": 11,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=11.00），可能是独立角色"
+  },
+  {
+    "alias": "猫琳",
+    "canonical_candidate": "猫琳（猫女孩）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "李槐",
+    "canonical_candidate": "黑真人（李槐）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "萱小姐",
+    "canonical_candidate": "萱小姐（江萱）",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "江萱",
+    "canonical_candidate": "萱小姐（江萱）",
+    "alias_count": 30,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=30.00），可能是独立角色"
+  },
+  {
+    "alias": "秦舜英",
+    "canonical_candidate": "秦舜英（店长）",
+    "alias_count": 86,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=86.00），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "秦舜英（店长）",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "李莉安",
+    "canonical_candidate": "李莉安（小李）",
+    "alias_count": 26,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=26.00），可能是独立角色"
+  },
+  {
+    "alias": "李莉",
+    "canonical_candidate": "李莉安（小李）",
+    "alias_count": 84,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=84.00），可能是独立角色"
+  },
+  {
+    "alias": "小李",
+    "canonical_candidate": "李莉安（小李）",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "张鹿洱",
+    "canonical_candidate": "张鹿洱（化身）",
+    "alias_count": 8,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=8.00），可能是独立角色"
+  },
+  {
+    "alias": "露西亚",
+    "canonical_candidate": "露西亚·天行者",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "幽灵魔女",
+    "canonical_candidate": "幽灵魔女小姐姐",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "幽灵魔女小姐姐",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "修狄娅（猫灯）",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "杜灵璇",
+    "canonical_candidate": "璇宝（杜灵璇）",
+    "alias_count": 239,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=239.00），可能是独立角色"
+  },
+  {
+    "alias": "璇宝",
+    "canonical_candidate": "璇宝（杜灵璇）",
+    "alias_count": 7,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=7.00），可能是独立角色"
+  },
+  {
+    "alias": "灵璇",
+    "canonical_candidate": "璇宝（杜灵璇）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "陈丽谷",
+    "canonical_candidate": "陈丽谷（谷宝）",
+    "alias_count": 175,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=175.00），可能是独立角色"
+  },
+  {
+    "alias": "谷宝",
+    "canonical_candidate": "陈丽谷（谷宝）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "艾尔莎",
+    "canonical_candidate": "艾尔莎·梅森",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "店员（魔女）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "大姐姐型魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "安德里亚",
+    "canonical_candidate": "安德里亚小姐",
+    "alias_count": 9,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "魔女（匿名）",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维利亚",
+    "canonical_candidate": "奥维利亚猫灯",
+    "alias_count": 138,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=138.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维利亚猫灯",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "奥维利亚猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "江涵",
+    "canonical_candidate": "江涵（艾琳）",
+    "alias_count": 1683,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1683.00），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "江涵（艾琳）",
+    "alias_count": 153,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=153.00），可能是独立角色"
+  },
+  {
+    "alias": "玛丽",
+    "canonical_candidate": "玛丽安·霍默",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "角鼠魔女女仆",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "蓝色柴郡猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "林间客巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "林间客巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "林间客巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "希雅",
+    "canonical_candidate": "希雅（希傅）",
+    "alias_count": 128,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=128.00），可能是独立角色"
+  },
+  {
+    "alias": "希傅",
+    "canonical_candidate": "希雅（希傅）",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "风暴巨猫",
+    "canonical_candidate": "历战风暴巨猫",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "历战风暴巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "艾丽菲亚",
+    "canonical_candidate": "艾丽菲亚小姐",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "李心尘",
+    "canonical_candidate": "白真人李心尘",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "莱瑞拉",
+    "canonical_candidate": "莱瑞拉·佩吉",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "工程学者巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "瞎宝",
+    "canonical_candidate": "瞎宝（洁宝）",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "洁宝",
+    "canonical_candidate": "瞎宝（洁宝）",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫魔女",
+    "canonical_candidate": "无眠巨猫魔女",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "猫魔女",
+    "canonical_candidate": "无眠巨猫魔女",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "无眠巨猫魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "无眠巨猫魔女",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "罗德洁琳",
+    "canonical_candidate": "李·罗德洁琳",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "希雅",
+    "canonical_candidate": "希傅（希雅）",
+    "alias_count": 128,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=128.00），可能是独立角色"
+  },
+  {
+    "alias": "希傅",
+    "canonical_candidate": "希傅（希雅）",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "看守者魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "守夜者",
+    "canonical_candidate": "守夜者魔女",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "守夜者魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "江萱",
+    "canonical_candidate": "江萱老同志",
+    "alias_count": 30,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=30.00），可能是独立角色"
+  },
+  {
+    "alias": "玛丽",
+    "canonical_candidate": "玛丽·加兰",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "富萝莉",
+    "canonical_candidate": "富萝莉艾琳",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "富萝莉艾琳",
+    "alias_count": 153,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=153.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "法兰西魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "龙魔女",
+    "canonical_candidate": "龙魔女店长",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "龙魔女店长",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "龙魔女店长",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "销售的魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "艾莉森",
+    "canonical_candidate": "艾莉森女王",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "艾莉森",
+    "canonical_candidate": "女王艾莉森",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "索尔娜",
+    "canonical_candidate": "炎魔索尔娜",
+    "alias_count": 9,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.00），可能是独立角色"
+  },
+  {
+    "alias": "冰魔像",
+    "canonical_candidate": "冰魔像小姐",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "错玉小姐",
+    "canonical_candidate": "梁错玉小姐",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "梁错玉",
+    "canonical_candidate": "梁错玉小姐",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "玛丽",
+    "canonical_candidate": "玛丽特赛车",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "斩首者魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "摄影师魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "奥术巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "奥术巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "奥术巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫尔",
+    "canonical_candidate": "猫尔古咿斯",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "尸骨巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "尸骨巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "尸骨巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "邪能巨猫",
+    "canonical_candidate": "邪能巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "邪能巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "邪能巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "邪能巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "江涵",
+    "canonical_candidate": "领主猫江涵",
+    "alias_count": 1683,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1683.00），可能是独立角色"
+  },
+  {
+    "alias": "寻宝巨猫",
+    "canonical_candidate": "寻宝巨猫灯",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "寻宝巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "寻宝巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "寻宝巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "事务官",
+    "canonical_candidate": "事务官魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "事务官魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "李槐",
+    "canonical_candidate": "黑真人李槐",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "尸解仙魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "储物巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "储物巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "储物巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "魔女服务员",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "窗口的魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "龙魔女",
+    "canonical_candidate": "卷册龙魔女",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "卷册龙魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "炎龙巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "炎龙巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "炎龙巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "鬼龙巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "鬼龙巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "鬼龙巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "河马巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "河马巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "河马巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫灯",
+    "canonical_candidate": "火锅巨猫灯",
+    "alias_count": 6,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=6.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "火锅巨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "火锅巨猫灯",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "陈丽谷",
+    "canonical_candidate": "陈丽谷小姐",
+    "alias_count": 175,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=175.00），可能是独立角色"
+  },
+  {
+    "alias": "楚虞君",
+    "canonical_candidate": "楚虞君小姐",
+    "alias_count": 61,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=61.00），可能是独立角色"
+  },
+  {
+    "alias": "于思潼",
+    "canonical_candidate": "于思潼老师",
+    "alias_count": 14,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=14.00），可能是独立角色"
+  },
+  {
+    "alias": "亚纪",
+    "canonical_candidate": "五昧川亚纪",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "美穗子",
+    "canonical_candidate": "宫崎美穗子",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "服务员魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "梅丽莎",
+    "canonical_candidate": "梅丽莎女士",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "丽莎",
+    "canonical_candidate": "梅丽莎女士",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "詹妮",
+    "canonical_candidate": "詹妮·鲍尔",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "德意志魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "楚虞君",
+    "canonical_candidate": "楚虞君姐妹",
+    "alias_count": 61,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=61.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "巨猫教练团",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "玛莉亚",
+    "canonical_candidate": "玛莉亚姐妹",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "玛莉亚姐妹",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "多萝西",
+    "canonical_candidate": "多萝西姐妹",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "米雪",
+    "canonical_candidate": "米雪德里亚",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "幽灵魔女",
+    "canonical_candidate": "幽灵魔女们",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女们",
+    "canonical_candidate": "幽灵魔女们",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "幽灵魔女们",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "商贩魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "车夫魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "黑衣魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "江萱",
+    "canonical_candidate": "江萱女士",
+    "alias_count": 30,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=30.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "红裙魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "龙角魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "司机魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "罗夏",
+    "canonical_candidate": "罗夏小姐",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "领班魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "混血魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "温和魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "触手魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "幽灵店长",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "莉亚莉亚",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "南希",
+    "canonical_candidate": "南希小姐",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "销售魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "骸骨魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "莉亚",
+    "canonical_candidate": "普塔莉亚",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "贞铃",
+    "canonical_candidate": "贞铃小姐",
+    "alias_count": 9,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.00），可能是独立角色"
+  },
+  {
+    "alias": "谭月",
+    "canonical_candidate": "谭月小组",
+    "alias_count": 20,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=20.00），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "女巫店长",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "卷耳猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "邪能猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "鼠人魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "鼠人",
+    "canonical_candidate": "鼠人魔女",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "贞铃",
+    "canonical_candidate": "贞铃妹妹",
+    "alias_count": 9,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.00），可能是独立角色"
+  },
+  {
+    "alias": "龙魔女",
+    "canonical_candidate": "红龙魔女",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "红龙魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "江妙",
+    "canonical_candidate": "江妙小姐",
+    "alias_count": 41,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=41.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "炎魔魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "迷雾猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "寻宝巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "司机猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "汤雯",
+    "canonical_candidate": "汤雯小姐",
+    "alias_count": 38,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=38.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "壁炉猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "龙艾琳",
+    "canonical_candidate": "眠龙艾琳",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "眠龙艾琳",
+    "alias_count": 153,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=153.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "大象巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "赤目魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "幸运猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫魔女",
+    "canonical_candidate": "巨猫魔女",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "巨猫魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "巨猫魔女",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "邦妮",
+    "canonical_candidate": "邦妮小姐",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "工程巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "军装魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "海林猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "尸骨猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "侦探猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "助手猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "大橘巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "海树魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "贪吃巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "服务猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "血河猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "小李",
+    "canonical_candidate": "小李同志",
+    "alias_count": 4,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=4.00），可能是独立角色"
+  },
+  {
+    "alias": "巨猫",
+    "canonical_candidate": "雾仙巨猫",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "龙龟魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "江妙",
+    "canonical_candidate": "江妙堂妹",
+    "alias_count": 41,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=41.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "整备猫灯",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "奥维",
+    "canonical_candidate": "奥维残影",
+    "alias_count": 34,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=34.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "魔女们",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "店长",
+    "canonical_candidate": "秦店长",
+    "alias_count": 2,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=2.00），可能是独立角色"
+  },
+  {
+    "alias": "安妮",
+    "canonical_candidate": "安妮塔",
+    "alias_count": 5,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=5.00），可能是独立角色"
+  },
+  {
+    "alias": "魔女",
+    "canonical_candidate": "龙魔女",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "敌艾琳",
+    "alias_count": 153,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=153.00），可能是独立角色"
+  },
+  {
+    "alias": "艾琳",
+    "canonical_candidate": "龙艾琳",
+    "alias_count": 153,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=153.00），可能是独立角色"
+  },
+  {
+    "alias": "猫格",
+    "canonical_candidate": "猫格恩",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "卡拉",
+    "canonical_candidate": "卡拉灯",
+    "alias_count": 9,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=9.00），可能是独立角色"
+  },
+  {
+    "alias": "猫萝",
+    "canonical_candidate": "猫萝拉",
+    "alias_count": 3,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=3.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫灯A",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "猫灯",
+    "canonical_candidate": "猫灯B",
+    "alias_count": 12,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=12.00），可能是独立角色"
+  },
+  {
+    "alias": "鼠辈",
+    "canonical_candidate": "鼠辈们",
+    "alias_count": 1,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=1.00），可能是独立角色"
+  },
+  {
+    "alias": "安洁",
+    "canonical_candidate": "陈安洁",
+    "alias_count": 39,
+    "canonical_count": 1,
+    "rule": "freq_close_skip",
+    "confidence": "low",
+    "auto_accept": false,
+    "reason": "频率接近（ratio=39.00），可能是独立角色"
+  }
+  ]
+}

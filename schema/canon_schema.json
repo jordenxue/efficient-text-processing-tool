@@ -1,0 +1,63 @@
+{
+  "_asset_layer": "base",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CanonExtraction",
+  "type": "object",
+  "required": ["chunk_id", "summary", "characters", "events", "locations", "time_markers", "relationships"],
+  "additionalProperties": false,
+  "properties": {
+    "chunk_id": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "action", "emotion"],
+        "additionalProperties": false,
+        "properties": {
+          "name":    {"type": "string"},
+          "action":  {"type": "string"},
+          "emotion": {"type": "string"}
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event", "cause", "result"],
+        "additionalProperties": false,
+        "properties": {
+          "event":  {"type": "string"},
+          "cause":  {"type": "string"},
+          "result": {"type": "string"}
+        }
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "time_markers": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["person_a", "person_b", "interaction"],
+        "additionalProperties": false,
+        "properties": {
+          "person_a":    {"type": "string"},
+          "person_b":    {"type": "string"},
+          "interaction": {"type": "string"}
+        }
+      }
+    }
+  }
+}
