@@ -40,6 +40,7 @@ asset_layer: experimental
 
 ## 当前使用口径
 
+- 若任务涉及 workflow 骨架、六步主流程或 `draft_mode` / `finalize_mode` / `task_mode` 术语，不在 `review/` 内找真源，直接回到 `universal/specs/staged_engineering_workflow_backbone_v1.md`。
 - 若任务是看实验表现，优先进入“实验复审”类文件。
 - 若任务是看结构、层级、模具与重构输入，优先进入“结构分析”类文件。
 - 若任务涉及历史文件去留，进入“清理 / 隔离 / 审计”类对象。

@@ -66,9 +66,9 @@ asset_layer: base
 
 ## D009 - 第一阶段完成后不再进行架构级大改
 
-- 决策：第一阶段完成后，主线进入收口归档与复用 SOP 整理，不再进行架构级大改。
-- 原因：canon/style/merge/query 主链已经跑通，继续大改只会提高回归风险。
-- 不做：不重跑 canon/style/merge 主线；不再重新设计主数据流。
+- 决策：第一阶段完成后，项目进入收口归档与复用 SOP 整理，不再进行架构级大改。
+- 原因：canon/style/merge/query 底座链路已经跑通，继续大改只会提高回归风险。
+- 不做：不重跑 canon/style/merge 底座链路；不再重新设计主数据流。
 
 ## D010 - 人物查询以 v2 数据为准
 
@@ -270,10 +270,11 @@ asset_layer: base
 
 ## D024 - DeepSeek 的重型基础设施路线延后
 
-- 决策：图数据库 / GraphRAG / 多智能体 / checker / planner 不进入当前阶段。
+- 决策：图数据库 / GraphRAG / 多智能体 / checker / planner 不进入当前阶段；若需要图谱层，只允许在正式 workflow 的 Step 3 之后按需挂接轻量、可编辑的增强层。
 - 原因：
   - 当前阶段仍是最小生成验证，不是基础设施升级
   - 当前阻塞点可以通过角色卡、世界规则卡和场景卡的最小组合继续推进
+  - 当前图谱需求更偏向可编辑增强，而不是重型基础设施替换
 - 不做：
   - 不把图数据库 / GraphRAG / checker / planner 写成当前待办
   - 不为当前 pilot 引入新执行器编排系统
@@ -334,3 +335,21 @@ asset_layer: base
 - 决策：round3 的 prefix、prompt、checkpoint、pilot 输出归类为当前阶段实验消费层资产。
 - 原因：这些材料服务于验证与对照，不应直接定义长期角色资产结构。
 - 不做：不把 round3 材料表述为最终主架构；不以其实验分层替代长期主卡 + sidecars 方案。
+
+## D033 - 阶段性工程 workflow 骨架以 frozen baseline 形式落库
+
+- 决策：`universal/specs/staged_engineering_workflow_backbone_v1.md` 作为当前 workflow 骨架真源落库，并以 `frozen baseline` 口径统一六步主流程、`draft_mode` / `finalize_mode` 术语与 `task_mode` 的内嵌处理规则。
+- 保持：
+  - 冻结的是骨架，不冻结参数
+  - `canon/style` 继续作为稳定底座
+  - `pairwise comparative review` 作为默认主线
+  - 图谱层仅作为 Step 3 之后的增强层，且优先可编辑性
+- 原因：
+  - 需要把 workflow 骨架从分散表述收口到单一正式真源
+  - 需要避免 README、SOP、review 盘点文件各自定义一套流程口径
+  - 需要把“轻量图谱增强”与“重型图基础设施”明确区分
+- 不做：
+  - 不新增独立 `Step 0`
+  - 不让 `task_mode` 脱离步骤内处理而外扩成新流程层
+  - 不让 SOP、review 或实验文档覆盖 backbone 真源
+  - 不把参数、模板、阈值和实现细节误冻为骨架本体

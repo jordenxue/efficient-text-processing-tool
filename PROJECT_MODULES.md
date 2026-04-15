@@ -19,6 +19,7 @@ asset_layer: base
 | 文件 | 用途 |
 |------|------|
 | `PROJECT_READING_ORDER.md` | AI 进仓后的推荐阅读顺序入口。 |
+| `universal/specs/staged_engineering_workflow_backbone_v1.md` | 当前 workflow 骨架真源，统一六步主流程与 mode 术语。 |
 | `ASSET_SOURCE_MAP.md` | 区分正式真源、草案候选、实验参考与运行态状态文件。 |
 | `AI_ROLES.md` | AI 协作角色与交接口径。 |
 | `DECISIONS.md` | 项目级决策日志。 |
@@ -32,12 +33,14 @@ asset_layer: base
 
 - 当前已落地稳定的 `base` 承载面。
 - 适合放正式规范、协议、schema、数据模型与资产分层总则。
+- 当前 workflow 骨架真源已落在 `universal/specs/staged_engineering_workflow_backbone_v1.md`，口径状态为 `frozen baseline`。
 
 ### `universal/sop/`
 
 - 当前仓库里已有该目录，但本轮不把它写成“已稳定收口完成的真源区”。
 - 当前更合适的口径是：`universal/sop/` 是一个**建议中的 / 待继续收口的 base 承载面**。
 - 适合未来承接跨小说 SOP、验收清单、启动流程，但其内容是否全部升级为正式真源，仍需后续逐项确认。
+- 涉及 workflow 骨架、六步主流程与 mode 术语时，不以 `universal/sop/` 另起一套口径。
 
 ### 路径受限但概念上属于 `base` 的对象
 
@@ -71,7 +74,7 @@ asset_layer: base
 - `query.py`：核心查询入口
 - `build_generation_context.py`：generation context builder
 - `generate_from_prompt_lmstudio.py`：prompt-file -> output-file 的现有生成入口
-- 其余脚本继续服务于 canon / style / merge / query 既有主线
+- 其余脚本继续服务于 canon / style / merge / query 既有底座链路
 
 概念上，这些稳定通用脚本能力更接近 `base`；物理路径暂不调整。
 
@@ -135,6 +138,7 @@ asset_layer: base
 ## 当前模块边界
 
 - 正式 `base` 真源，优先看 `universal/specs/`。
+- workflow 骨架真源，优先看 `universal/specs/staged_engineering_workflow_backbone_v1.md`。
 - 正式 `instantiation_mold` 真源当前尚未落库；现有相关材料仍是草案或候选输入。
 - 具体小说长期资产，优先看 `kb/characters/` 与相关 `kb/` 对象。
 - round3 与其他阶段实验材料，继续留在 `outputs/` 与 `review/` 的实验区理解。

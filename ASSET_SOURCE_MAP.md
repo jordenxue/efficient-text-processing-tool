@@ -10,6 +10,7 @@ asset_layer: base
 这些文件或目录用于定义长期规则、正式边界或项目级定案：
 
 - `universal/specs/project_asset_layering_and_novel_bootstrap_v1.md`
+- `universal/specs/staged_engineering_workflow_backbone_v1.md`
 - 已收口的 `universal/specs/` 规范文件
 - `DECISIONS.md`
 
@@ -17,6 +18,7 @@ asset_layer: base
 
 - 这些对象优先级高于运行态状态文件。
 - 若与阶段性说明冲突，应优先按正式真源理解。
+- 涉及 workflow / 流程骨架 / 六步主流程 / `draft_mode` / `finalize_mode` / `task_mode` 时，统一以 `universal/specs/staged_engineering_workflow_backbone_v1.md` 为准。
 
 ## 2. 草案候选
 
@@ -74,3 +76,4 @@ asset_layer: base
 - 当前仓库里已有 `universal/sop/` 目录。
 - 其中 3 份文件已通过准入审计，标注为 `asset_layer: base`，允许进入首批 Git 骨架提交。
 - 其余文件仍待逐项确认，当前更合适的口径是：`universal/sop/` 作为一个**可部分升级为正式 base 真源的承载面**，需逐项确认。
+- `universal/sop/` 可描述具体执行链路或复用动作，但不单独定义 workflow 骨架；相关口径仍以前述 backbone spec 为准。

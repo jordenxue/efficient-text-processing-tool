@@ -3,6 +3,7 @@ asset_layer: base
 # AI 协作角色与切换规则
 > 本文件是项目级协作规则，适用于所有参与本项目的 AI 与人工执行者。
 > 每次启动新任务前，应优先读取本文件与握手文件。
+> workflow / 流程骨架 / `draft_mode` / `finalize_mode` / `task_mode` 的正式口径，以 `universal/specs/staged_engineering_workflow_backbone_v1.md` 为准。
 
 ## 适用范围
 本文件同时定义两层规则：
@@ -65,9 +66,10 @@ asset_layer: base
 所有执行器在新任务开始前应优先读取：
 1. `PROJECT_READING_ORDER.md`
 2. `universal/specs/project_asset_layering_and_novel_bootstrap_v1.md`
-3. `ASSET_SOURCE_MAP.md`
-4. `PROJECT_MODULES.md`
-5. 再按 `PROJECT_READING_ORDER.md` 进入当前任务相关文件
+3. `universal/specs/staged_engineering_workflow_backbone_v1.md`
+4. `ASSET_SOURCE_MAP.md`
+5. `PROJECT_MODULES.md`
+6. 再按 `PROJECT_READING_ORDER.md` 进入当前任务相关文件
 
 如文件之间存在冲突：
 - 机器可读状态以 `STATE.json` 为准

@@ -16,13 +16,14 @@ asset_layer: base
 
 1. `PROJECT_READING_ORDER.md`
 2. `universal/specs/project_asset_layering_and_novel_bootstrap_v1.md`
-3. `ASSET_SOURCE_MAP.md`
-4. `review/project_asset_inventory_layering_v1.md`
-5. `review/tag_application_guidelines_v1.md`
-6. `PROJECT_MODULES.md`
-7. `DECISIONS.md`
-8. `AI_ROLES.md`
-9. 再进入 `STATE.json`、`CURRENT_STATE.md`、`NEXT_ACTION.md`（这三个文件不在 Git 骨架中，git clone 后默认不存在；本地可在 `alpha_test_stage/` 找到）
+3. `universal/specs/staged_engineering_workflow_backbone_v1.md`
+4. `ASSET_SOURCE_MAP.md`
+5. `review/project_asset_inventory_layering_v1.md`
+6. `review/tag_application_guidelines_v1.md`
+7. `PROJECT_MODULES.md`
+8. `DECISIONS.md`
+9. `AI_ROLES.md`
+10. 再进入 `STATE.json`、`CURRENT_STATE.md`、`NEXT_ACTION.md`（这三个文件不在 Git 骨架中，git clone 后默认不存在；本地可在 `alpha_test_stage/` 找到）
 
 ## 当前结构口径
 
@@ -41,6 +42,7 @@ asset_layer: base
 
 ## 当前建议如何理解仓库
 
+- `universal/specs/staged_engineering_workflow_backbone_v1.md`：当前 workflow 骨架真源，状态为 `frozen baseline`
 - `universal/specs/`：正式规范、协议、schema 真源
 - `universal/sop/`：当前可作为 base 参考的 SOP / 清单承载区，已有 3 份文件通过准入审计，标注为 `base`
 - `Scripts/`：稳定通用脚本能力
@@ -76,5 +78,6 @@ asset_layer: base
 ## 当前边界
 
 - 本项目当前不做大规模目录搬迁
+- 涉及 workflow / 流程骨架 / mode 术语时，以 `universal/specs/staged_engineering_workflow_backbone_v1.md` 为准
 - 不以 README 取代正式规范或项目决策
 - 不把实验层正文内容误写成长期真值

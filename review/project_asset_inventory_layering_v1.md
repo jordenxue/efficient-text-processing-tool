@@ -17,6 +17,7 @@ asset_layer: experimental
 | 路径 | 建议层级 | 简短理由 |
 |------|----------|----------|
 | `universal/specs/project_asset_layering_and_novel_bootstrap_v1.md` | `base` | 当前资产分层与新小说启动总则的正式规范真源。 |
+| `universal/specs/staged_engineering_workflow_backbone_v1.md` | `base` | 当前 workflow 骨架真源，统一六步主流程与 mode 术语。 |
 | `universal/specs/character_record_preprocess_spec_v1.md` | `base` | 跨小说可复用的角色档案包预处理规范。 |
 | `universal/specs/character_record_audit_spec_v1.md` | `base` | 跨小说可复用的角色档案包审核规范。 |
 | `universal/specs/character_record_generation_payload_spec_v1.md` | `base` | 跨小说可复用的 generation payload 组装规范。 |
@@ -80,6 +81,7 @@ asset_layer: experimental
 ## 7. 当前归位结论
 
 - 当前 `base` 层已具备规范、协议、稳定脚本能力与项目级协作真源。
+- workflow 骨架真源已落在 `universal/specs/staged_engineering_workflow_backbone_v1.md`，其口径高于本盘点文件。
 - 当前 `instantiation_mold` 层已有 `kb/characters/template/` 作为模板目录样板（原 `kb/characters/江涵/`，已泛化）。
 - 当前 `novel_instance` 层仍主要对应 `kb/` 下的具体小说长期实例数据。
 - 当前 round3 相关 prefix、prompt、checkpoint、输出、review 仍应留在 `experimental`，不应误归为 `base` 或 `novel_instance`。

@@ -3,6 +3,7 @@ asset_layer: base
 # 高效文本处理工具：下一本小说复用 SOP（初稿）
 
 > 本文件当前作为 `base` 层 SOP 参考保留；文件名中的“初稿”仅反映历史命名，不单独表示实验层或其他资产层。
+> workflow / 流程骨架 / `draft_mode` / `finalize_mode` / `task_mode` 的正式口径，以 `universal/specs/staged_engineering_workflow_backbone_v1.md` 为准；本 SOP 不单独定义 workflow backbone。
 
 一、目的
 
@@ -35,13 +36,15 @@ asset_layer: base
 
 三、阶段边界补充说明（新增）
    
-   本 SOP 当前主要覆盖的是“第一阶段稳定底座复用”，即：
+   本 SOP 当前主要覆盖的是 frozen backbone 下“第一阶段稳定底座复用”的执行链路，即：
    1. chunk
    2. canon
    3. style
    4. merge
    5. query
    6. 必要时的 section_type 最小审计
+
+   上述顺序用于描述底座执行链路，不单独替代六步 workflow 骨架。
    
    这意味着：
    
@@ -64,7 +67,7 @@ asset_layer: base
 
 三、当前默认原则
 
-1. 第一阶段主线已经验证完成，后续复用以稳定为先，不再默认做架构级大改。
+1. 第一阶段底座链路已经验证完成，后续复用以稳定为先，不再默认做架构级大改。
 2. 机器可读状态以 `STATE.json` 为准。
 3. 当前任务以 `NEXT_ACTION.md` 为准。
 4. 项目决策以 `DECISIONS.md` 为准。
@@ -76,7 +79,7 @@ asset_layer: base
    * `DECISIONS.md`
    * `CURRENT_STATE.md`
 
-四、复用时的总流程
+四、复用时的第一阶段执行链路
 
 下一本小说接入时，按以下顺序推进：
 
@@ -122,7 +125,7 @@ asset_layer: base
 7. 注意事项
 8. 不要在 chunk 阶段混入知识抽取逻辑
 9. 不要为了局部异常轻易重切全书
-10. 如果发现极短 chunk、标题页、版权页、附录、说明性文本，不要立刻改主流程，先保留证据
+10. 如果发现极短 chunk、标题页、版权页、附录、说明性文本，不要立刻改底座执行链路，先保留证据
 11. chunk 总数一旦进入正式 full run，应记录并冻结
 12. 产物
 13. `chunks/*.txt`
@@ -136,7 +139,7 @@ asset_layer: base
 
 2. 默认原则
 3. canon 是事实抽取，不承担风格模仿职责
-4. 不重跑已通过的稳定主线，除非明确发现输入集或脚本逻辑有硬错误
+4. 不重跑已通过的稳定底座链路，除非明确发现输入集或脚本逻辑有硬错误
 5. canon 的成功与失败应可在状态文件或运行状态源中追踪
 6. 注意事项
 7. canon 与 style 是双管线，不回退成单脚本
@@ -157,7 +160,7 @@ asset_layer: base
 3. style 与 canon 分离
 4. style 的稳定性问题优先用最小后处理修补，不放宽 schema
 5. 不让低质量 style 输出污染 taxonomy
-6. backfill 属于例外修补，不应改写主线完成的事实
+6. backfill 属于例外修补，不应改写底座链路已完成的事实
 7. 注意事项
 8. style 可存在 backfill / retry / holes 归档
 9. style 计数可能和 canon 不同，原因必须在后续文档中解释清楚
@@ -175,7 +178,7 @@ asset_layer: base
 将 canon/style 的有效结果汇总成知识库主产物，并形成 query 可消费的数据层。
 
 2. 默认原则
-3. merge 是主线闭环步骤，不在收口阶段轻易重做
+3. merge 是底座闭环步骤，不在收口阶段轻易重做
 4. 第一阶段完成后，`kb/*` 视为稳定产物
 5. 旧 `character_index.json` 只保留为 legacy summary，不再作为真源
 6. 重点产物
@@ -289,8 +292,8 @@ asset_layer: base
 以下内容默认视为冻结基线，不随意改动：
 
 1. `chunks/` 正式输入集
-2. canon full run 主线产物
-3. style full run 主线产物
+2. canon full run 底座产物
+3. style full run 底座产物
 4. merge 主产物
 5. `character_appearances_v2.jsonl`
 6. `character_profiles_v2.json`
@@ -360,7 +363,7 @@ asset_layer: base
 
 十六、当前不要做
 
-1. 不重跑 canon/style/merge 主线
+1. 不重跑 canon/style/merge 底座链路
 2. 不继续修旧 `kb/character_index.json`
 3. 不把 query alias 提升为 observed alias
 4. 不在收口阶段开启架构级大改
