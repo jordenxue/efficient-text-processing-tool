@@ -1,6 +1,6 @@
 {
   "_asset_layer": "instantiation_mold",
   "character": "NULL",
-  "note": "placeholder for relation-side maintenance entries",
+  "note": "Relation maintenance container for detailed or still-unsettled relationship entries; main.json.relationship_stance should stay as a thin high-confidence summary.",
   "entries": []
 }

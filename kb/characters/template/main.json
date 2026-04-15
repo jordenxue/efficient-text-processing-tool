@@ -4,14 +4,14 @@
   "character": "NULL",
   "scope_anchor": {
     "policy": "latest_stable_state",
-    "validated_through": null,
-    "note": "TODO"
+    "validated_through": "NULL",
+    "note": "NULL"
   },
   "generation_data": {
     "identity_core": {
-      "summary": "TODO",
+      "summary": "NULL",
       "hard_facts": [],
-      "family_structure": "TODO"
+      "family_structure": "NULL"
     },
     "capability_profile": {
       "known_competence": [],
@@ -19,8 +19,8 @@
       "avoid_overclaim": []
     },
     "voice_profile": {
-      "external_expression": "TODO",
-      "inner_monologue": "TODO",
+      "external_expression": "NULL",
+      "inner_monologue": "NULL",
       "register_preferences": [],
       "register_avoidances": []
     },
@@ -31,6 +31,6 @@
   "maintenance_data": {
     "evidence_pack": [],
     "source_artifacts": [],
-    "migration_note": "TODO"
+    "migration_note": "NULL"
   }
 }
