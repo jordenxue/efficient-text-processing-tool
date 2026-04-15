@@ -4,13 +4,14 @@ asset_layer: experimental
 
 > 本文件用于从当前项目中抽取“每本小说启动时都应复制或生成的稳定骨架”。
 > 本文件是模具抽取草案，不是正式 `instantiation_mold` 真源；当前仅服务后续模具定稿与项目结构重构。
+> 本轮只统一**当前有效 draft 口径**，不把这里的内容写成最终冻结设计。
 
 ## 1. 依据
 
 - `universal/specs/project_asset_layering_and_novel_bootstrap_v1.md`
 - `review/project_asset_inventory_layering_v1.md`
 - `review/tag_application_guidelines_v1.md`
-- `kb/characters/江涵/` 下现有主卡 + sidecars 骨架
+- `kb/characters/template/` 下现有主卡 + sidecars 骨架
 
 ## 2. 本轮只抽什么
 
@@ -58,27 +59,33 @@ asset_layer: experimental
 - `kb/characters/` 体现长期角色资产的小说级落点。
 - 角色目录本身属于实例层容器，但其“存在性骨架”可以由模具层统一提供。
 
-### 3.3 主卡 + sidecars 的基础存在性骨架
+### 3.3 主卡 + sidecars 的基础存在性骨架（current draft rule）
 
-推荐纳入核心模具的角色档案包骨架：
+当前有效 draft 口径下，推荐纳入核心模具的角色档案包骨架为：
 
 - `main.json`
 - `sidecar_relations.json`
 - `sidecar_open_questions.json`
-- `sidecar_review.jsonl`
 - `sidecar_notes.md`
 
-当前仅建议冻结以下稳定层级：
+补充说明：
+
+- 上述 4 件是当前核心 mold 组成件。
+- `sidecar_review.jsonl` **不是核心 mold 必备件**。
+- `sidecar_review.jsonl` 当前更接近实例化后在 audit / review 阶段**按需生成**的过程性产物；若出现在隔离区或运行态流程中，应优先按实验 / 运行态审计材料理解。
+
+当前 draft rule 先统一以下层级语义：
 
 - 主卡有 `generation_data / maintenance_data` 两大区
 - sidecars 与主卡分离
-- review 记录、开放问题、关系维护与说明文档各自独立挂接
+- 开放问题、关系维护与说明文档各自独立挂接
+- audit / review 发现记录不默认预置在核心 mold 中
 
-当前不建议冻结：
+当前仍保留为 open design question：
 
 - `generation_data` 内部更细的 generation-facing 字段簇
 - 具体关系字段细则
-- 仍可能随后续试填与审核变化的角色字段设计
+- `sidecar_review` 的最终承载形态（是否继续用 JSONL）仍可后续再议
 
 ### 3.4 review / audit / logs 基础挂接位
 
@@ -137,7 +144,7 @@ asset_layer: experimental
 
 1. 新小说独立工作区的基础目录骨架
 2. `kb/characters/` 与角色目录的存在性骨架
-3. 主卡 + sidecars 的基础存在性骨架
+3. 主卡 + 3 个 core sidecars 的基础存在性骨架
 4. `review/` 与 `logs/` 的基础挂接位
 5. `raw / chunks / state / outputs/canon / outputs/style` 等基础底料容器位
 

@@ -85,9 +85,10 @@ asset_layer: base
 3. canon 抽取
 4. style 抽取
 5. merge 汇总
-6. query 接入与 smoke test
-7. 必要时做 section_type 分层审计
-8. 归档、checkpoint、状态写回
+6. 如进入角色档案包整理，则在 merge 后插入角色模具实例化与首轮角色包整理
+7. query 接入与 smoke test
+8. 必要时做 section_type 分层审计
+9. 归档、checkpoint、状态写回
 
 五、新书接入前检查
 
@@ -183,6 +184,45 @@ asset_layer: base
 9. `kb/character_profiles_v2.json`
 10. `kb/character_query_aliases_v2.json`
 11. 其他 location / event / relationship 相关索引
+
+九-A、角色模具实例化补充（current draft rule）
+
+1. 适用时机
+
+当项目已经完成 merge，并准备为某个角色建立 `kb/characters/{name}/` 长期角色目录时，应先按当前 draft 口径从 `kb/characters/template/` 实例化角色包，再进入该角色的首轮预处理 / audit。
+
+2. 当前核心 mold 组成件
+
+当前有效 draft 口径下，`kb/characters/template/` 的核心 mold 由以下 4 件组成：
+
+1. `main.json`
+2. `sidecar_notes.md`
+3. `sidecar_open_questions.json`
+4. `sidecar_relations.json`
+
+`sidecar_review.jsonl` 当前**不是**核心 mold 必备件；它更接近实例化后在 audit / review 阶段按需生成的过程性产物。
+
+3. 当前实例化动作链
+
+1. 从 `kb/characters/template/` 复制上述 4 件到 `kb/characters/{name}/`
+2. 第一轮立即替换 `main.json.character`
+3. 清理历史 JSON 占位写法：正式 JSON 中不再保留 `"TODO"`，仅允许 `"NULL"` 作为当前 draft 口径下的可审计占位
+4. 首轮预处理开始后，逐步填充 `generation_data`、`maintenance_data` 与 3 个 sidecar
+5. 首轮 audit 发生在预处理初稿之后、生成消费之前；如需要持久发现记录，可在此阶段按需生成 `sidecar_review.jsonl`
+
+4. 当前 draft 占位与字段语义
+
+- `"NULL"`：当前 draft 口径下唯一允许出现在正式 JSON 中的占位值，用于表示“该字段当前尚未完成实例化 / 预处理 / 审阅”。
+- `main.json.character`：复制后必须第一轮立即替换，不允许在实例目录中长期保留 `"NULL"`。
+- 将在当前轮生成消费中被选入 payload 的 `generation_data` 字段：进入生成消费前不得继续保留 `"NULL"`。
+- `scope_anchor`：记录当前角色包的适用范围与验证边界，帮助说明“本卡当前锚定到什么稳定状态”。
+- `evidence_pack`：维护侧证据包，用于记录字段与 chunk / 来源证据的对应关系，不直接进入生成 payload。
+- `source_artifacts`：维护侧来源清单，用于记录本次角色包整理实际依赖过的文件、索引、查询结果或中间材料。
+
+5. 当前保留的 open design question
+
+1. `evidence_pack` 与 `source_artifacts` 的详细条目 schema 仍可继续迭代。
+2. `sidecar_review` 的最终承载形态是否长期保留 JSONL，仍是 to be decided。
 
 十、query 阶段 SOP
 
@@ -311,11 +351,12 @@ asset_layer: base
 6. full run
 7. style backfill
 8. merge
-9. character/query 层接入
-10. query smoke test
-11. 必要时做 section_type 审计
-12. 收口归档
-13. 更新 SOP / 验收清单 / 状态文件
+9. 如进入角色档案包整理：从 `kb/characters/template/` 复制角色包 core mold，并完成首轮预处理 / audit
+10. character/query 层接入
+11. query smoke test
+12. 必要时做 section_type 审计
+13. 收口归档
+14. 更新 SOP / 验收清单 / 状态文件
 
 十六、当前不要做
 

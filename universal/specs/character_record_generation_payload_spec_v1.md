@@ -5,6 +5,7 @@ asset_layer: base
 > 层级：Universal Fixed Asset
 > 版本：v1
 > 核心原则：存储态 / 消费态分离；生成层只看消费区
+> 当前文档只统一**current draft rule**，不把角色包消费合同写成最终冻结设计。
 
 ---
 
@@ -21,6 +22,14 @@ asset_layer: base
 生成层（`build_generation_context.py`）只从 `generation_data` 中抽取需要的字段。
 
 ---
+
+## 一-A、当前 draft 合同补充
+
+- 当前核心 mold 组成件为：`main.json`、`sidecar_notes.md`、`sidecar_open_questions.json`、`sidecar_relations.json`。
+- `sidecar_review.jsonl` 当前**不是**核心 mold 必备件；若需要持久审计记录，应在 audit / review 阶段按需生成。
+- 正式 JSON 中当前只允许 `"NULL"` 作为可审计占位；`"TODO"` 不再作为正式 JSON 合法值。
+- `main.json.character` 在实例化后必须立即替换，不得带着 `"NULL"` 进入生成消费。
+- 任何将被当前轮 payload 选中的 `generation_data` 字段，在进入生成消费前不得继续保留 `"NULL"`。
 
 ## 二、generation_data 字段要求
 
@@ -49,6 +58,19 @@ asset_layer: base
 
 ## 三、maintenance_data 字段类型
 
+当前 draft 语义补充：
+
+| 字段 | 当前 draft 语义 |
+|------|-----------------|
+| `scope_anchor` | 记录当前角色包的适用范围与验证边界，帮助说明当前主卡锚定到什么稳定状态 |
+| `evidence_pack` | 维护侧证据包，用于记录字段与 chunk / 证据来源的对应关系，不进入生成 payload |
+| `source_artifacts` | 维护侧来源清单，用于记录本次角色包整理实际依赖过的文件、索引、查询结果或中间材料 |
+
+补充说明：
+
+- `evidence_pack` 与 `source_artifacts` 的详细 entry schema 仍是 open design question。
+- 当前文档先统一它们的维护语义，不要求一次性定死最终字段设计。
+
 以下类型的内容应放在 `maintenance_data`，不发给模型：
 
 - 待核实的字段（标注 `"confidence": "uncertain"` 的条目）
@@ -65,7 +87,7 @@ asset_layer: base
 
 1. 读取 `generation_data` 中指定的字段簇
 2. 不读取 `maintenance_data`
-3. 对 `key_relationships` 等候选性字段，保留"候选"标注注入 prompt
+3. 如未来下游临时引入候选关系信息，必须保留"候选"标注，且不应把维护侧候选直接伪装成高置信事实
 4. style guidance 目前为占位，待 style 管线接入后填充
 
 ---
@@ -77,9 +99,12 @@ asset_layer: base
 | `sidecar_notes.md` | 人工维护的自由文本注记 |
 | `sidecar_relations.json` | 详细关系条目（比 main.json 中的摘要更完整）|
 | `sidecar_open_questions.json` | 待解决的知识空缺列表 |
-| `sidecar_review.jsonl` | audit 发现记录（按时间追加）|
 
 sidecar 文件均为维护层，不进入生成 payload。
+
+补充说明：
+
+- `sidecar_review.jsonl` 如存在，应按 audit / review 阶段的按需产物理解，而不是核心 mold 必备件。
 
 ---
 
